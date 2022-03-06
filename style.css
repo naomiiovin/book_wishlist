@@ -1,0 +1,92 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css); 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa&family=DM+Sans&family=Sansita+Swashed&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #22aeff93, #fa039b36);
+    min-height: 100vh;
+}
+
+
+
+.container{
+    background-image:linear-gradient(120deg, #22aeffb4, #fa039b60);
+    border-radius:15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.096);
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+#submit {
+    background-image: linear-gradient(120deg, #22aeff70, #fa039b65);
+    border: 5px;
+    color: black;
+}
+
+#submit:hover {
+    background-image: linear-gradient(120deg, #036096c9, #a30667be);
+    color: white;
+
+}
+#title, #author{
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h3 {
+    margin: 10px 0;
+
+}
+
+.table {
+    
+    width: 100%;
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+
+}
+
+
+ #trash{
+    color:#000;
+}
+#trash:hover{
+    color:rgba(0, 0, 0, 0.486);
+}
+.success, .error {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: rgb(26, 187, 26);
+    opacity: 0.5;
+}
+
+.error {
+    background: red;
+    opacity: 0.5;
+}
+

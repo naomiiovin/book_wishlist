@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Book Wishlist</title>
+</head>
+<body>
+    <br>
+    <br>
+    <!-- Book Widget Starts-->
+        <div class="container">
+            <h1>The Book Wishlist</h1>
+            <form id="book-form">
+                <div> 
+                    <input type="text" id="title" placeholder="Add Title" class="u-full-width">
+                </div>
+                <div>
+                    <input type="text" id="author" placeholder="Add Author" class="u-full-width">
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit" class="u-full-width">
+                </div>
+            </form>
+            <table class="u-full-width">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+        </div>
+    <!-- Book Widget Ends-->
+    <script src="app.js"></script>
+</body>
+</html>
